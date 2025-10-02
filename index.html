@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jonalyn Bajar | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+     <div class="logo">J<span>.</span></div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+  <div class="hero-content">
+    <h1>Hello, I'm <span>Jonalyn</span></h1>
+    <p>Welcome to my portfolio! This collection showcases my activities that reflect my growth, creativity, and dedication to continuous learning. Each piece highlights not only my technical abilities but also my problem-solving mindset and attention to detail. Through this portfolio, I aim to present how I apply my knowledge to real-world challenges while striving for innovation and improvement.</p>
+    <a href="#contact" class="cta-button">Let's Connect</a>
+  </div>
+</section>
+
+    <section id="about" class="section">
+  <h2>About Me</h2>
+  <div class="about-content">
+    <img src="assets/jona.jpg" alt="Jona - BSIT Student" class="profile-img">
+    <p>A second-year BSIT student crafting responsive websites with clean code and a user-first mindset. Currently mastering front-end development and exploring the endless possibilities of web technology.</p>
+  </div>
+</section>
+
+  <section id="projects" class="section">
+    <h2>Class Activities & Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="assets/act1.png" alt="HTML and CSS practice website">
+      </div>
+      <div class="project-card">
+        <img src="assets/act2.png" alt="Interactive quiz app screenshot">
+      </div>
+      <div class="project-card">
+        <img src="assets/act3.png" alt="Database ERD or interface">
+      </div>
+      <div class="project-card">
+        <img src="assets/ss1.png" alt="Figma or wireframe design">
+      </div>
+      <div class="project-card">
+        <img src="assets/ss2.png" alt="Figma or wireframe design">
+      </div>
+      <div class="project-card">
+        <img src="assets/ss3.png" alt="Figma or wireframe design">
+      </div>
+    </div>
+
+    <div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <div class="modal-content">
+      <img class="modal-img" id="modalImage">
+    </div>
+    <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+    <a class="next" onclick="changeImage(1)">&#10095;</a>
+  </div>
+  </section>
+
+   
+
+    <section id="contact" class="section">
+  <h2>Get In Touch</h2>
+  <div class="contact-container">
+    <div class="contact-info">
+      <p>Have a project in mind or want to chat about web development?</p>
+      <p>I’d love to hear from you!</p>
+
+      <form class="contact-form" action="https://formspree.io/f/YOUR-FORM-ID" method="POST">
+      <div class="form-group">
+        <input type="text" id="name" name="name" required>
+        <label for="name">Name</label>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" name="email" required>
+        <label for="email">Email</label>
+      </div>
+      <div class="form-group">
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <label for="message">Message</label>
+      </div>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+
+      <div class="contact-links">
+        <p>📧 <a href="mailto:jonalynbajar0166@gmail.com">your.email@example.com</a></p>
+        <p>🐙 <a href="https://github.com/jonalynbajar0166-ctrl" target="_blank">github.com/yourusername</a></p>
+        <p>📸 <a href="https://instagram.com/jonalyn_bajar" target="_blank">instagram.com/yourhandle</a></p>
+      </div>
+</section>
+  </main>
+
+  <footer>
+    <p>Jonalyn Bajar Portfolio.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
