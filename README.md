@@ -3,7 +3,7 @@
 ![Portfolio Screenshot](assets/portfolio-preview.png)
 
 ### 👋 About Me
-I'm a passionate Computer Science student with a strong interest in front-end development, UI/UX design, and creating accessible, responsive web experiences. I enjoy turning ideas into functional, visually appealing websites using clean code and modern tools.
+My name is Jonalyn Bajar, I am 20 years old and I live in Barangay San Luis, Sitio Balite. I love dancing, especially when I feel bored, and I also enjoy singing. My favorite sport is volleyball. As a BSIT student, I believe that balancing my hobbies and studies helps me become more productive and motivated in reaching my goals.
 
 ### 🌐 Live Site
 View my portfolio live here:  
